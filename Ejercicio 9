@@ -1,0 +1,24 @@
+9. Se leen desde teclado pares de temperaturas (T1 y T2) hasta que T1 sea cero. Hallar el promedio de las temperaturas ingresadas que están comprendidas entre 5° y 15° (incluidos)
+
+Algoritmo Temperatura
+	Definir N, temp1, temp2 Como Entero
+	Escribir "Ingrese primera temperatura (entre 5 y 15 grados):"
+	Leer N
+	Escribir "Ingrese segunda temperatura (entre 5 y 15 grados):"
+	Leer N
+	Si N < 5 Entonces
+		Escribir "Número inválido"
+	SiNo
+		Si N > 15 Entonces
+			Escribir "Número inválido"
+		SiNo
+			Si temp1 == 0 Entonces
+				Escribir "Gracias por visitar nuestra página"
+			SiNo
+				promedio <- (temp1+temp2)/2
+			FinSi
+		FinSi
+	FinSi
+	Escribir "El promedio de las temperaturas es:", promedio
+FinAlgoritmo
+
